@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8fafc; /* Lighter, cleaner background */
+}
+
+/* Currency Converter Card */
+.currency-card {
+  transition: box-shadow 0.2s ease; /* Keep only shadow transition */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.currency-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12); /* Subtle shadow on hover */
+}
+
+/* Button Styles */
+button {
+  transition: background-color 0.2s ease; /* Remove transform animation */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4f46e5; /* Keep color change */
+}
+
+/* Dropdown Styles */
+select {
+  transition: border-color 0.2s ease;
+}
+
+select:focus {
+  border-color: #4f46e5;
+  outline: none;
+}
+
+/* Improved text colors for better contrast */
+.currency-card h2 {
+  color: #1f2937; /* Darker gray for better readability */
+}
+
+.currency-card label {
+  color: #374151; /* Medium gray for labels */
+}
+
+.currency-card input::placeholder {
+  color: #9ca3af; /* Lighter placeholder text */
+}
