@@ -1,5 +1,8 @@
 # Currency Converter
 
+## Live Demo
+Check out the live application: [https://convert-currncy.netlify.app/](https://convert-currncy.netlify.app/)
+
 ## Description
 A simple and user-friendly currency converter application built with React and Vite. This application allows users to convert amounts between different currencies using real-time exchange rates.
 
